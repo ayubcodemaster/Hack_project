@@ -18,6 +18,9 @@ bot = Bot(TOKEN)
 dp = Dispatcher()
 rg = Router()
 
+def new():
+    print('hello')
+    
 class States(StatesGroup):
     start_menu = State()
     start_fill_form = State()
